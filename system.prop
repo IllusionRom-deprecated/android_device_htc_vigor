@@ -6,8 +6,10 @@ ro.sf.lcd_density=320
 
 # RIL properties
 # cm props
+ril.subscription.types=RUIM,NV
+ro.telephony.ril_class=HTCVigorQualcommRIL
 mobiledata.interfaces = rmnet0,rmnet_sdio0
-ro.telephony.default_network = 8
+ro.telephony.default_network = 10
 telephony.lteOnCdmaDevice = 1
 
 # RIL properties
@@ -30,6 +32,10 @@ ro.ril.svdo=true
 
 # For QC perf binary hooks
 ro.vendor.extension_library = /system/lib/libqc-opt.so
+
+# update 1x signal strength after 2s
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=2
 
 # Set CDMA SUBSCRIPTION SOURCE to RUIM in Database for this device
 ro.telephony.default_cdma_sub=0
@@ -152,10 +158,6 @@ persist.thermal.monitor = true
 # Set this value to force load 8k modem in release key
 # vigor must enable this value to enable 9kramdump
 ro.modem.load.release_key = true
-
-# UMS
-persist.sys.usb.config = mtp,adb
-ro.vold.umsdirtyratio=40
 
 
 # Scrolling Tweaks
