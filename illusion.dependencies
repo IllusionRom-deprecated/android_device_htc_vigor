@@ -1,0 +1,32 @@
+[
+  {
+    "remote": "ill",
+    "repository": "android_hardware_qcom_media-legacy",
+    "target_path": "hardware/qcom/media-legacy",
+    "revision": "illusion-4.4"
+  },
+  {
+    "remote": "ill",
+    "repository": "android_hardware_qcom_display-legacy",
+    "target_path": "hardware/qcom/display-legacy",
+    "revision": "illusion-4.4"
+  },
+  {
+    "remote": "ill",
+    "repository": "android_device_htc_msm8660-common",
+    "target_path": "device/htc/msm8660-common",
+    "revision": "illusion-4.4"
+  },
+  {
+    "remote": "ill",
+    "repository": "vigor_aosp_kernel",
+    "target_path": "kernel/htc/vigor-3.0",
+    "revision": "illusion-4.4"
+  },
+  {
+    "remote": "ill",
+    "repository": "vendor_htc_vigor",
+    "target_path": "vendor/htc/vigor",
+    "revision": "illusion-4.4"
+  },
+]
