@@ -21,4 +21,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_vigor BUILD_ID=IML74K BUILD_FIN
 
 # bootanimation
 PRODUCT_COPY_FILES += \
-        vendor/illusion/bootanimation/Illusion768x768.zip:system/media/bootanimation.zip
+        vendor/illusion/bootanimation/768x1280.zip:system/media/bootanimation.zip
